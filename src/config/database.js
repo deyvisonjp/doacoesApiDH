@@ -1,26 +1,16 @@
-{
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+module.exports = {
+  development: {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: 3306,
+    username: 'root',
+    password: 'd2j6p8s1',
+    database: 'doacoes',
+    operatorAliases: false,
+    define: {
+      timestamps: true,
+      underscored: true,
+      underscoredAll: true,
+    },
   },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
-  }
-}
+};
