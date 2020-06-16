@@ -4,6 +4,7 @@
   "description": "Projeto criado para aulas práticas Santander Coders Dgital House",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "sequelize": "^5.21.12"
   },
   "devDependencies": {
+    "nodemon": "^2.0.4",
     "sequelize-cli": "^5.5.1"
   }
 }
